@@ -1,0 +1,14 @@
+/bin/
+
+*.class
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# derby
+
+derby.log
+zoo/

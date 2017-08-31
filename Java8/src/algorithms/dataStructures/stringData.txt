@@ -1,0 +1,1 @@
+All this things are going into a stack, a queue or a bag! =)
