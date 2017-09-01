@@ -21,5 +21,5 @@ public class StaticNestedClassExample {
 		System.out.println(n.price);
 
 	}
-//test change
+
 }

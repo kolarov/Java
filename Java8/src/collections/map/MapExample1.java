@@ -4,13 +4,13 @@ package collections.map;
  * Use a map when you want to identify  values by key.
  * We use the generics K for key objects and V for value objects. * 
  * 
- * V	 			get				(K key)
- * V	 			remove			(K key)
- * V				put 			(K key, V value)
- * void         	clear       	()
- * boolean    		isEmpty     	()
- * int          	size        	()
- * boolean 			containsKey		(K key)
+ * V     		    get  	        (K key)
+ * V     		    remove			(K key)
+ * V     		    put 	    	(K key, V value)
+ * void             clear           ()
+ * boolean    	    isEmpty      	()     
+ * int          	size            ()
+ * boolean 			containsKey	    (K key)
  * boolean 			containsValue	(V value)
  * Set<K> 			keySet			()
  * Collection<V> 	values			()
