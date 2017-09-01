@@ -4,23 +4,23 @@ package collections.map;
  * Use a map when you want to identify  values by key.
  * We use the generics K for key objects and V for value objects. * 
  * 
- * V     		    get  	        (K key)
- * V     		    remove			(K key)
- * V     		    put 	    	(K key, V value)
- * void             clear           ()
- * boolean    	    isEmpty      	()     
- * int          	size            ()
- * boolean 			containsKey	    (K key)
- * boolean 			containsValue	(V value)
- * Set<K> 			keySet			()
- * Collection<V> 	values			()
+ * V get(K key)
+ * V remove(K key)
+ * V put(K key, V value)
+ * void clear()
+ * boolean isEmpty()     
+ * int size()
+ * boolean containsKey(K key)
+ * boolean containsValue(V value)
+ * Set<K> keySet()
+ * Collection<V> values()
  *  
  * _____ New Methods in Java 8 _____ 
- * V putIfAbsent	(K key, V value)
- * V merge			(K key, V value, BiFunction<? super V, ? super V,
- * 												? extends V> remappingFunction)
- * V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> 
- * 															 remappingFunction) 
+ * V putIfAbsent(K key, V value)
+ * V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> 
+ *                                                            remappingFunction)
+ * V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V>
+ *                                                            remappingFunction) 
  * 		Returns the new value associated with the specified key, or	null if none
  * V computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction)
  * 		Returns the current (existing or computed) value associated with the 
